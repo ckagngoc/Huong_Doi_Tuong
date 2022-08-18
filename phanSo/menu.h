@@ -7,7 +7,7 @@ char menu_cal(char c) { //Me niu tính toán
         while (c == 'y')
         {
             /* code */
-            system("cls");
+            //system("cls");
             cout << "------------------------Caculator two fractions------------------------";
             PhanSo a,b;
             cout << "\nPhan so thu nhat: \n";
@@ -32,7 +32,7 @@ char menu_cmp(char c) { // Me niu so sánh với 1
     while (c == 'y')
     {
         /* code */
-        system("cls");
+        //system("cls");
         cout << "------------------------Compare fraction with 1------------------------\n";
         PhanSo a;
         cout << "Nhap phan so can so sanh: \n";
@@ -51,7 +51,7 @@ void menu() { // Me niu hiện hành
     int a;
     while (true)
     {
-        system("cls");
+        //system("cls");
         cout << "-------------------Chuong trinh thu nghiem voi phan so---------------";
         cout << "\n1 - Caculator two fractions.";
         cout << "\n2 - Compare fraction with 1.";
