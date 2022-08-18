@@ -16,6 +16,9 @@ public:
 	PhanSo operator-(PhanSo); // PhanSo - PhanSo
 	PhanSo operator*(PhanSo); // PhanSo * PhanSo
 	PhanSo operator/(PhanSo); // PhanSo / PhanSo
+
+	bool operator>(int);
+	bool operator==(int);
 };
 
 /*Hàm trả về ước chung lớn nhất của hai param*/
@@ -127,4 +130,17 @@ PhanSo PhanSo::operator/(PhanSo p) {
 	if(p1.ts!=0)
 		p1.ToiGian();
 	return p1;
+}
+//Nạp chồng toán tử >
+bool PhanSo::operator>(int a)
+{
+	float n = ts/ms;
+	if(n > float(a)) return true;
+	else return false;
+}
+
+bool PhanSo::operator==(int a)
+{
+	if(ts == a && ms == 1) return true;
+	else return false;
 }
