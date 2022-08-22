@@ -27,7 +27,7 @@ int main () {
         cin >> lim;
         cout <<"Please enter phone number: ";
         cin >> phone;
-        Customer cust(first, middle, last, bal, limit, phone);
+        Customer cust(first, middle, last, bal, lim, phone);
         cust.showCustomer();
     }
     return 0;
