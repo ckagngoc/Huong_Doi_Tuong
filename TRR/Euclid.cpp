@@ -37,7 +37,7 @@ void euclidMoRong(int a, int b, int *s, int *t){
     cout <<"\n-------------------------------------------------"<<endl;
     cout <<"m: "<<m<<"\tq: 0"<<"\tx: "<<xm<<"\ty: "<<ym<<endl;
     int xn = 0, yn = 1;
-    cout <<"n: "<<n<<"\tq: 0"<<"\tx: "<<xn<<"\ty: "<<yn<<endl;
+    cout <<"m: "<<n<<"\tq: 0"<<"\tx: "<<xn<<"\ty: "<<yn<<endl;
     while(n != 0) {
         q = m / n; //Chia lay phan nguyen
         r = m % n; //Chia lay du
