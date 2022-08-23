@@ -4,12 +4,6 @@
 #include "Customer.h"
 
 int main () {
-    Customer cs1("Pham","Duc","Minh",7000000000,10000000000,"0914671265");
-    Customer cs2("Nguyen","Ngoc","Hieu Ngu",700,10000,"190010 khong nho");
-    cs1.showCustomer();
-    cout << "pass - 1\n";
-    cs2.showCustomer();
-    cout << "pass - 2";
     int x;
     const int TIMES = 2;
     string first, middle, last, phone;
