@@ -7,7 +7,7 @@ int main() {
     //testDate();
     //testTime();
     //testPerson();
-    testMagazineSubscription();
-    testDentalAppointment();
+    testMagazineSubscription(); // my test.h
+    testDentalAppointment(); // my test.h
     return 0;
 }
