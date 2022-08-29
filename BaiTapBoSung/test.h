@@ -1,3 +1,7 @@
+//Test viết linh tinh để test chức năng của các class
+//author: Phạm Đức Minh
+//Ngày tạo: 24/8/2022
+
 void testDate() {
     int day, month, year;
     cout <<"Day: ";
