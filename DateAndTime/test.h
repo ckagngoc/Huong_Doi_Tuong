@@ -1,3 +1,7 @@
+// Test viết khá là ít của Phạm Đức Minh tự bịa và tự test
+// !! Chưa test hết chức năng 
+// author: Phạm Đức Minh
+// ngày tạo 24/8/2022
 bool testDateAndTime() {
     int day = 6;
     int month = 10;
