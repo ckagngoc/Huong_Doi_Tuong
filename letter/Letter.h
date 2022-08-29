@@ -20,7 +20,7 @@ istream &operator>>(istream& is, Letter& lt) {
     while (c == 'y')
     {
         /* code */
-        system("cls");
+        //system("cls");
         cout << "Enter title for recipient: ";
         is >> lt.title;
         fflush(stdin);
